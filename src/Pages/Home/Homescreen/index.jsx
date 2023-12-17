@@ -1,10 +1,10 @@
 import AboutMe from "../AboutMe";
-import ContactMe from "../ContactMe";
 import Footer from "../Footer";
 import HeroSection from "../HeroSection";
-import MyPortfolio from "../MyPortfolio";
+import Contact from "../Contact";
 import MySkills from "../MySkills";
-import Testimonial from "../Testimonials";
+import Prices from "../Testimoni";
+
 
 export default function Home() {
   return (
@@ -12,9 +12,8 @@ export default function Home() {
       <HeroSection />
       <MySkills />
       <AboutMe />
-      <MyPortfolio />
-      <Testimonial />
-      <ContactMe />
+      <Prices />
+      <Contact />
       <Footer />
     </>
   );

@@ -1,0 +1,41 @@
+/* riwayat.css */
+
+.container-style {
+  background-color: #e1eaf2;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.table-caption {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.custom-button {
+  width: 80px;
+  padding: 10px;
+  background-color: #a6bcf4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,47 @@
+/* Registrasi CSS */
+.registration-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .registration-container h1 {
+    text-align: center;
+  }
+  
+  .registration-container .input-container {
+    margin: 10px 0;
+  }
+  
+  .registration-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registration-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #a6bcf4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .registration-container a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  

@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+.proses-pesanan {
+  padding: 5%;
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.konten-pesanan {
+  max-width: 600px;
+  margin: 130px auto;
+}
+
+h2 {
+  color: #281b5e;
+}
+
+.detail-proses {
+  margin-top: 20px;
+  padding: 5%;
+  background-color: #e9ecff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.detail-proses p {
+  margin: 10px 0;
+}
+
+strong {
+  color: #281b5e;
+}
+
+@media (max-width: 768px) {
+  .proses-pesanan {
+    padding: 8%;
+  }
+
+  .detail-proses {
+    margin-top: 10px; /* Adjust margin-top for better spacing */
+    padding: 5%;
+  }
+}

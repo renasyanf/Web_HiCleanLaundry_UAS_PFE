@@ -15,7 +15,7 @@ function Navbar() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 500) {
-        closeMenu;
+        closeMenu(); // Panggil fungsi closeMenu dengan tanda kurung ()
       }
     };
 
@@ -28,14 +28,14 @@ function Navbar() {
 
   useEffect(() => {
     if (window.innerWidth <= 1200) {
-      closeMenu;
+      closeMenu(); // Panggil fungsi closeMenu dengan tanda kurung ()
     }
   }, []);
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+        <img src="./img/hiclean.svg" alt="Hi Clean" />
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -48,76 +48,96 @@ function Navbar() {
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
-            <Link
+            <a
               onClick={closeMenu}
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              to="heroSection"
+              href="/"
               className="navbar--content"
             >
               Home
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
+            <a
               onClick={closeMenu}
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
+              href="/Contactus"
               className="navbar--content"
             >
-              Portfolio
-            </Link>
+              Contact Us
+            </a>
           </li>
           <li>
-            <Link
+            <a
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="navbar--content"
+              href="/About"
+            >
+              About Us
+            </a>
+          </li>
+
+          <li>
+            <a
               onClick={closeMenu}
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              to="AboutMe"
+              to="Services" 
               className="navbar--content"
+              href="Services"
             >
-              About Me
-            </Link>
-          </li>
+              Services
+            </a>
+          </li>   
+
           <li>
-            <Link
+            <a
               onClick={closeMenu}
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              to="Harga" 
               className="navbar--content"
+              href="Harga"
             >
-              Testimonials
-            </Link>
-          </li>
+              Prices
+            </a>
+          </li>  
+
+
         </ul>
       </div>
-      <Link
+      <a className="btn btn-outline-primary" href="Registrasion">Sign Up</a>
+
+      {/* <Link 
         onClick={closeMenu}
         activeClass="navbar--active-content"
         spy={true}
         smooth={true}
         offset={-70}
         duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-      </Link>
+        link to="Registration" 
+        className="btn btn-outline-primary">
+        Sign Up or Log In 
+      </Link> */}
     </nav>
+    
   );
 }
 

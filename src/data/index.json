@@ -2,27 +2,27 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/cuci1.png",
+      "title": "REGULER",
+      "description": "Paket Mencuci dan menyetrika pakaianmu hingga wangi dan rapi."
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/kilat1.png",
+      "title": "KILAT",
+      "description": "Paket Mencuci dan menyetrika pakaianmu hanya membutuhkan waktu satu hari saja."
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/setrika1.png",
+      "title": "SETRIKA",
+      "description": "Paket hanya menyetrika pakaianmu hingga wangi dan rapi."
     },
     {
       "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/antar1.png",
+      "title": "ANTAR - JEMPUT",
+      "description": "Paket reguler lengkap dengan layanan antar - jemput ke tempat tujuanmu."
     }
   ],
   "portfolio": [
@@ -53,25 +53,25 @@
       "id": "1",
       "count": "5",
       "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "description": "Saya sudah repeat service di HiClean Laundry karena pelayanannya baik terus baju saya menjadi sangat rapi dan wangi",
+      "author_name": "Abel Khaizure",
+      "author_designation": ""
     },
     {
       "id": "2",
       "count": "5",
       "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
+      "description": "Sudah beberapa kali saya laundry benar-benar dapat diandalkan, memberikan perhatian terhadap setiap detail.",
+      "author_name": "Juan Eknath",
+      "author_designation": ""
     },
     {
       "id": "3",
       "count": "5",
       "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Setiap kali saya mendapatkan pakaian yang telah diambil dan dicuci oleh mereka, saya merasakan perubahan yang signifikan.",
       "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "author_designation": ""
     }
   ]
 }

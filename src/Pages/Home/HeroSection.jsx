@@ -1,23 +1,27 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
         <div className="hero--section--content">
-          <p className="section--title">Hey, I'm John</p>
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">Full Stack</span>{" "}
-            <br />
-            Developer
+            <span className="hero--section-title--color">Hi Clean</span> <br />
+            Laundry
           </h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            <br /> Dolorum, quas. Amet soluta assumenda cum?
+            Kami akan membuat bajumu menjadi bersih, wangi dan rapi!
+            <br /> Siap antar dan jemput sesuai tujuan
+            <br /> Buka jam 07.00 - 20.00
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <Link to="/Harga" className="btn btn-primary">
+          More
+        </Link>
       </div>
       <div className="hero--section--img">
-        <img src="./img/hero_img.png" alt="Hero Section" />
+        <img src="./img/landing.jpg" alt="Hero Section" />
       </div>
     </section>
   );

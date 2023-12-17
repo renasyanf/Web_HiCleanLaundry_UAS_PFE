@@ -1,4 +1,6 @@
-import data from "../../data/index.json";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import data from '../../data/index.json';
 
 export default function MySkills() {
   return (
@@ -16,6 +18,9 @@ export default function MySkills() {
             <div className="skills--section--card--content">
               <h3 className="skills--section--title">{item.title}</h3>
               <p className="skills--section--description">{item.description}</p>
+              <Link to="/FormReservasi">
+                <button className="skills--section--button">Pesan</button>
+              </Link>
             </div>
           </div>
         ))}

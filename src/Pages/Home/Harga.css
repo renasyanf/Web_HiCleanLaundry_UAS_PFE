@@ -1,0 +1,25 @@
+.harga-laundry-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+  }
+  
+  .harga-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .harga-table th,
+  .harga-table td {
+    border: 1px solid #ddd;
+    padding: 8px; /* Adjust padding for cells */
+    text-align: left;
+    font-size: 14px; /* Adjust font size for cells */
+  }
+  
+  .harga-table th {
+    background-color: #e9edff;
+    font-size: 16px; /* Adjust font size for header */
+  }
+  
